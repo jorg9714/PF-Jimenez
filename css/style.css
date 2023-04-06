@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav {
+    background-color: #f0edaf;
+    padding: 15px;
+    border: 1px #000000 solid;
+}
+
+.nav-link {
+    text-decoration:none;
+    color: #000000;
+    list-style:none;
+}
+
+.nav-list{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-list li  {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+}
+
+p{
+    text-align: justify;
+}
+
+
+.sectionInfo{
+    background-color: #a0c5be;
+    border: 1px #000000 solid;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    text-align: center;
+
+}
+
+.sectionInfo div{
+    text-align: center;
+    display: inline-block;
+}
+
+.sectionInfo h2{
+  padding: 1%;
+}
+
+.boxInfo{
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    padding: 1%;
+    background-color: #ffd783;
+    border: 1px #000000 solid;
+}
+
+.boxInfoServices{
+    display: inline-block;
+    text-align: center;
+    width: 70%;
+    background-color: #ffd783;
+    border: 1px #000000 solid;
+    padding: 1%;
+    border-radius: 57px;
+    margin: 1%;
+}
+
+.boxinfAbout{
+    display: inline-block;
+    text-align: center;
+    width: 70%;
+    background-color: #ffd783;
+    border: 1px #000000 solid;
+    padding: 1%;
+}
+
+.boxInfoServices table{
+    display: inline-block;
+    text-align: center;
+    border: 1px #000000 solid;
+}
+
+.separation{
+    background-color: #d4dec6;
+    padding: 1.5%;
+    border: 1px #000000 solid
+}
+
+.adoptions{
+    display: inline-block;
+    text-align: center;
+    width: 70%;
+    padding: 1%;
+    margin: 2%;
+    background-color: #ffd783;
+    border: 1px #000000 solid
+}
+
+.boxindex img{
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.buttonWhatsapp{
+    position: absolute;
+    top: 66%;
+    left: 80%;
+    height: 65px;
+    width: 303px;
+    display: inline-block;
+    background-color: #ffffff;
+    border: 4px #000000 solid;
+    padding-left: 20px;
+}
+
+.buttonWhatsapp img {
+    height: 50px;
+    width: 50px;
+}
+
+.buttonWhatsapp label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+
+}
+
+.imgfeature img{
+    height: 375px;
+    width: 375px; 
+    object-fit: cover;
+
+}
+
+.iconStar{
+    height: 56px;
+    width: 56px; 
+    object-fit: cover;
+}
+
+.boxInfo h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding: 3%;
+}
+
+.boxInfo p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 3%;
+}
+
+.imgAdoption img{
+    height: 280px;
+    width: 280px; 
+    object-fit: cover;
+}
+
+.aboutUser tr th img {
+    height: 251px;
+    width: 251px; 
+    object-fit: cover;
+    padding: 10%;
+}
+
+.aboutUser tr td img {
+    height: 251px;
+    width: 251px; 
+    object-fit: cover;
+    padding: 10%;
+}
+
+.cardServices{
+    background-color: #ffffff;  
+    border: 1px #000000 solid;
+    margin: 2%;
+    display :inline-block;
+}
+
+.cardServices div img {
+    height: 100%; 
+    width: 250px; 
+    object-fit: cover;
+}
+
+
+.contact{
+    display :inline-block;
+}
+
+
+.footer{
+    background-color: #f0edaf;
+    padding: 15px;
+    border: 1px #000000 solid;
+}
+
+.footerdiv div{
+    display: inline-block;
+    margin: 2%;  
+}
+
