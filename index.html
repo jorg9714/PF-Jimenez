@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
     <title>Inicio</title>
@@ -42,65 +45,93 @@
         </section>
         <div class="separation"></div>
         <section class="sectionInfo">
-            <div>
-                <h2>Beneficios de llevar a tu peludo a una Guarderia</h2>
-                <div class="boxInfo">
-                    <div class="iconStar">
-                        <img src="multimedia/icons/starIcon.png" alt="">
+            <h2>Beneficios de llevar a tu peludo a una Guarderia</h2>
+            <div class="container-fluid">
+                <section class="row">
+                    <div class="col-xl-4 boxInfo">
+                        <div class="iconStar col-xl-12 ">
+                            <img src="multimedia/icons/starIcon.png" alt="">
+                            <h3>Beneficio 1</h3>
+                        </div>
+
+                        <div class="imgfeature">
+                            <img src="multimedia/images/dog1.jpg" alt="">
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem dolorum corrupti, maxime
+                            rerum
+                            quo repellat nobis. Id voluptates rem magni?</p>
                     </div>
-                    <h3>Beneficio 1</h3>
-                    <div class="imgfeature">
-                        <img src="multimedia/images/dog1.jpg" alt="">
+                    <div class="col-xl-4 boxInfo">
+                        <div class="iconStar">
+                            <img src="multimedia/icons/starIcon.png" alt="">
+                        </div>
+                        <h3>Beneficio 2</h3>
+                        <div class="imgfeature">
+                            <img src="multimedia/images/dog2.jpg" alt="">
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem dolorum corrupti, maxime
+                            rerum
+                            quo repellat nobis. Id voluptates rem magni?</p>
                     </div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem dolorum corrupti, maxime rerum
-                        quo repellat nobis. Id voluptates rem magni?</p>
-                </div>
-                <div class="boxInfo">
-                    <div class="iconStar">
-                        <img src="multimedia/icons/starIcon.png" alt="">
+                    <div class="col-xl-4 boxInfo">
+                        <div class="iconStar">
+                            <img src="multimedia/icons/starIcon.png" alt="">
+                        </div>
+                        <h3>Beneficio 3</h3>
+                        <div class="imgfeature">
+                            <img src="multimedia/images/dog3.jpg" alt="">
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem dolorum corrupti, maxime
+                            rerum
+                            quo repellat nobis. Id voluptates rem magni?</p>
                     </div>
-                    <h3>Beneficio 2</h3>
-                    <div class="imgfeature"> 
-                        <img src="multimedia/images/dog2.jpg" alt="">
-                    </div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem dolorum corrupti, maxime rerum
-                        quo repellat nobis. Id voluptates rem magni?</p>
-                </div>
-                <div class="boxInfo">
-                    <div class="iconStar">
-                        <img src="multimedia/icons/starIcon.png" alt="">
-                    </div>
-                    <h3>Beneficio 3</h3>
-                    <div class="imgfeature">
-                        <img src="multimedia/images/dog3.jpg" alt="">
-                    </div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem dolorum corrupti, maxime rerum
-                        quo repellat nobis. Id voluptates rem magni?</p>
-                </div>
+                </section>
             </div>
         </section>
         <div class="separation"></div>
         <section class="sectionInfo">
             <h2>¡ Ven a visitarnos !</h2>
             <div>
-                <iframe
+                <iframe class="map"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9458.527399236194!2d-74.06341606470102!3d4.6260226851819715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9987d0f4784f%3A0x1dcb7ccc58710aa5!2sParque%20Nacional%20Enrique%20Olaya%20Herrera!5e0!3m2!1ses-419!2sco!4v1679167409514!5m2!1ses-419!2sco"
                     width="1265" height="536" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
         <div class="separation"></div>
-    </main>    
-    <footer class="footer">
-        <div class="footerdiv">
-            <div>Logo</div>
-            <div>info logo</div>
-            <div>redes sociales</div>
-            <div>horario</div>
-            <div>telefono</div>
-            <div>contacto</div>
+    </main>
+    <footer class="container-fluid footer">
+        <div class="row footerdiv">
+            <div class="col-xl-4">
+                <img src="" alt="">
+                <h3>DogsAndStars </h3>
+                <p>Calle 54 # 64-70. Bogotá Colombia</p>
+                <p> © 2019 Dogs and Stars </p>
+                <p> Todos los derechos reservados</p>
+            </div>
+            <div class="col-xl-4">
+                <h2>Siguenos en nuestras redes sociales</h2>
+                <div>
+                    <img src="" alt="">
+                    <p>hotelDogsAndStar</p>
+                    <img src="" alt="">
+                    <p>hotelDogsAndStar</p>
+                    <img src="" alt="">
+                    <p>Lun-Dom: 6:00 am - 8:00pm</p>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <img src="" alt="">
+                    <p>+57 312 3215645 </p>
+                    <img src="" alt="">
+                    <p>contacto@dogsandstars.com.co</p>
+            </div>
         </div>
     </footer>
+    <!--scrpt bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
