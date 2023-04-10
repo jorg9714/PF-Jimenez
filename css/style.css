@@ -28,11 +28,50 @@
     height: 375px;
     width: 375px;
     object-fit: cover;
+    margin-bottom: 30px;
 
 }
 
 .logo {
     object-fit: cover;
+}
+
+.benefits{
+    justify-content: center;
+}
+
+.boxInfo {
+    text-align: center;
+    background-color: #ffd783;
+    border: 1px #000000 solid;
+    height: 740px;
+    width: 410px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.iconStar img{
+    margin: 2%;
+    height: 56px;
+    width: 56px; 
+}
+
+
+.sectionInfo {
+    background-color: #a0c5be;
+    border: 1px #000000 solid;
+    text-align: center;
+
+}
+
+.sectionInfo div {
+    text-align: center;
+}
+
+.sectionInfo h2 {
+    padding: 1%;
 }
 
 @media screen and (max-width:1200px) {
@@ -55,9 +94,19 @@
         height: 300px;
     }
 
-    .imgfeature img {
+    .boxInfo {
+        height: 600px;
         width: 300px;
-        height: 300px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .imgfeature img {
+        width: 270px;
+        height: 270px;
+        object-fit: cover;
     }
 
     .logo {
@@ -75,28 +124,8 @@ h2 {
 
 
 
-.sectionInfo {
-    background-color: #a0c5be;
-    border: 1px #000000 solid;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-    text-align: center;
 
-}
 
-.sectionInfo div {
-    text-align: center;
-}
-
-.sectionInfo h2 {
-    padding: 1%;
-}
-
-.boxInfo {
-    text-align: center;
-    background-color: #ffd783;
-    border: 1px #000000 solid;
-}
 
 .boxInfoServices {
     text-align: center;
