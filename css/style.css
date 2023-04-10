@@ -1,10 +1,11 @@
-.nav {
+/* nav */
+/* .nav {
     background-color: #f0edaf;
     padding: 15px;
     border: 1px #000000 solid;
-}
+} */
 
-.nav-link {
+/* .nav-link {
     text-decoration: none;
     color: #000000;
     list-style: none;
@@ -13,15 +14,29 @@
 .nav-list {
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
-.nav-list li {
+/* .nav-list li {
     display: inline-block;
     padding: 5px;
     margin: 5px;
     border-radius: 10px;
+} */
+.clasebarra{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.clasebarra li{
+    display: inline-block;
 }
 
+.navbar-brand img {
+    height: 100px;
+    width: 190px;
+    object-fit: cover;
+}
+
+/* end nav */
 /* index */
 
 .imgfeature img {
@@ -36,7 +51,7 @@
     object-fit: cover;
 }
 
-.benefits{
+.benefits {
     justify-content: center;
 }
 
@@ -52,10 +67,10 @@
     margin-bottom: 30px;
 }
 
-.iconStar img{
+.iconStar img {
     margin: 2%;
     height: 56px;
-    width: 56px; 
+    width: 56px;
 }
 
 
@@ -352,6 +367,7 @@ h2 {
     .colfooter-SocialNetwork {
         margin-top: 10px;
     }
+
     .colfooter-contact {
         margin-top: 40px;
     }
