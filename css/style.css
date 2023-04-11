@@ -1,27 +1,36 @@
 /* nav */
-/* .nav {
+.navbar {
     background-color: #f0edaf;
-    padding: 15px;
     border: 1px #000000 solid;
-} */
+}
 
 /* .nav-link {
     text-decoration: none;
     color: #000000;
     list-style: none;
 }
-
-.nav-list {
-    text-align: right;
+ */
+.navbar-nav {
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-} */
+} 
 
-/* .nav-list li {
-    display: inline-block;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 10px;
-} */
+.navbar-nav  li {
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.nav-link-style {
+    text-decoration: none;
+    color: #000000;
+    border: 1px #000000 solid;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    padding-left: 8px;
+    padding-right: 18px;
+}
 .clasebarra{
     text-align: right;
     font-family: Arial, Helvetica, sans-serif; 
@@ -34,6 +43,10 @@
     height: 100px;
     width: 190px;
     object-fit: cover;
+}
+
+.navLogo{
+   margin-top: 10px;
 }
 
 /* end nav */
@@ -78,6 +91,8 @@
     background-color: #a0c5be;
     border: 1px #000000 solid;
     text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
 }
 
@@ -89,6 +104,10 @@
     padding: 1%;
 }
 
+.map{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 @media screen and (max-width:1200px) {
     .map {
         width: 536px;
@@ -100,6 +119,12 @@
     .map {
         width: 400px;
         height: 400px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .nav-link-style {
+        border: none;
     }
 }
 
@@ -165,19 +190,26 @@ h2 {
     border: 1px #000000 solid;
 }
 
-.separation {
-    background-color: #d4dec6;
-    padding: 1.5%;
-    border: 1px #000000 solid
-}
 
+
+/* Adopcions */
 .adoptions {
-    text-align: center;
-    width: 70%;
+    display: flex;
+    width: 90%;
     padding: 1%;
     margin: 2%;
     background-color: #ffd783;
     border: 1px #000000 solid
+}
+
+.row-adoptions{
+    justify-content: center;
+}
+
+/* Adopcions End */
+
+.boxindex{
+    background-color: #a0c5be;
 }
 
 .boxindex img {
@@ -187,14 +219,11 @@ h2 {
 }
 
 .buttonWhatsapp {
-
-    top: 66%;
-    left: 80%;
+    margin-top: 2rem;
     height: 65px;
     width: 303px;
     background-color: #ffffff;
     border: 4px #000000 solid;
-    padding-left: 20px;
 }
 
 .buttonWhatsapp img {
@@ -205,6 +234,7 @@ h2 {
 .buttonWhatsapp label {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
+    margin-top: 7px;
 
 }
 
