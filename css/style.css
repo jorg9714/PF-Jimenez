@@ -1,3 +1,8 @@
+p{
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 2px;
+}
 /* nav */
 .navbar {
     background-color: #f0edaf;
@@ -211,11 +216,12 @@
 /*Services*/
 
 .boxInfoServices {
-    justify-content: center;
+    height: 100% ;
+    width: 80%;  
     background-color: #ffd783;
     border: 1px #000000 solid;
     border-radius: 40px;
-    margin: 10px;
+    margin: auto;
 }
 
 .boxInfoServices table {
@@ -246,17 +252,27 @@
 .cardServices {
     background-color: #ffffff;
     border: 1px #000000 solid;
-    margin: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.row-services{
+    padding: 50px;
 }
 
 .cardServices div img {
-    height: 100%;
+    height: 500px;
     width: 100%;
     object-fit: cover;
 }
 
 
 /*Services End*/
+
+.sectionContact{
+margin: 10px;
+}
+
 
 /*About*/
 
@@ -270,7 +286,9 @@
     background-color: #ffd783;
     border: 1px #000000 solid;
 }
-
+.boxinfAbout p{
+    margin: 20px;
+}
 
 .userProfile img{
     margin: 30px;
@@ -378,6 +396,10 @@
 }
 
 @media screen and (max-width:576px) {
+    .row-services{
+        padding: 15px;
+    }
+
     .social {
         margin-left: 7px;
     }
@@ -433,6 +455,8 @@
     .colfooter-contact {
         margin-top: 40px;
     }
+
+    
 }
 
 @media screen and (min-width:992px) and (max-width:1600px) {
