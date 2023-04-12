@@ -84,7 +84,6 @@
 
 .sectionInfo {
     background-color: #a0c5be;
-    border: 1px #000000 solid;
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -212,29 +211,47 @@
 /*Services*/
 
 .boxInfoServices {
-    text-align: center;
-    width: 70%;
+    justify-content: center;
     background-color: #ffd783;
     border: 1px #000000 solid;
-    padding: 1%;
-    border-radius: 57px;
-    margin: 1%;
+    border-radius: 40px;
+    margin: 10px;
 }
 
 .boxInfoServices table {
-    text-align: center;
+    margin: auto;
     border: 1px #000000 solid;
+    margin-bottom: 10px;
+}
+
+.price th {
+    padding: 5px;
+    background-color: #a0c5be;
+    border: 1px #000000 solid;
+
+}
+
+.price tr {
+    padding: 5px;
+    border: 1px #000000 solid;
+
+}
+
+.price td {
+    padding: 5px;
+    border: 1px #000000 solid;
+
 }
 
 .cardServices {
     background-color: #ffffff;
     border: 1px #000000 solid;
-    margin: 2%;
+    margin: 20px;
 }
 
 .cardServices div img {
     height: 100%;
-    width: 250px;
+    width: 100%;
     object-fit: cover;
 }
 
