@@ -3,6 +3,8 @@ p{
     text-justify: inter-word;
     margin: 2px;
 }
+
+
 /* nav */
 .navbar {
     background-color: #f0edaf;
@@ -339,6 +341,8 @@ margin: 10px;
 }
 
 
+
+
 .colfooter-SocialNetwork {
     text-align: center;
     padding: 0%;
@@ -348,7 +352,8 @@ margin: 10px;
 .colfooter-contact {
     text-align: center;
     padding: 0%;
-    margin-top: 100px;
+    margin-top: 60px;
+    margin: 20px;
 }
 
 .footer {
@@ -385,6 +390,7 @@ margin: 10px;
 }
 
 .contact p {
+    text-align: center;
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 30px;
@@ -393,6 +399,10 @@ margin: 10px;
 
 .logo {
     object-fit: cover;
+}
+
+.copyright p{
+    text-align: center;
 }
 
 @media screen and (max-width:576px) {
