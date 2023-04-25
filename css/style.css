@@ -275,7 +275,9 @@ p{
 margin: 10px;
 }
 
-
+.serv-list li{
+    text-align: left;
+}
 /*About*/
 
 .row-about{
