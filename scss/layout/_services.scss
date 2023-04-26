@@ -1,0 +1,58 @@
+
+/*Services*/
+
+.boxInfoServices {
+    height: 100% ;
+    width: 80%;  
+    background-color: #ffd783;
+    border: 1px #000000 solid;
+    border-radius: 40px;
+    margin: auto;
+}
+
+.boxInfoServices table {
+    margin: auto;
+    border: 1px #000000 solid;
+    margin-bottom: 10px;
+}
+
+.price th {
+    padding: 5px;
+    background-color: #a0c5be;
+    border: 1px #000000 solid;
+
+}
+
+.price tr {
+    padding: 5px;
+    border: 1px #000000 solid;
+
+}
+
+.price td {
+    padding: 5px;
+    border: 1px #000000 solid;
+
+}
+
+.cardServices {
+    background-color: #ffffff;
+    border: 1px #000000 solid;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.row-services{
+    padding: 50px;
+}
+
+.cardServices div img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.serv-list li{
+    text-align: left;
+}
+/*Services End*/

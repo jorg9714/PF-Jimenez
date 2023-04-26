@@ -1,0 +1,48 @@
+/* nav */
+.navbar {
+    background-color: #f0edaf;
+    border: 1px #000000 solid;
+}
+
+.navbar-nav {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-nav li {
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.nav-link-style {
+    text-decoration: none;
+    color: #000000;
+    border: 1px #000000 solid;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    padding-left: 8px;
+    padding-right: 18px;
+}
+
+.clasebarra {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clasebarra li {
+    display: inline-block;
+}
+
+.navbar-brand img {
+    height: 100px;
+    width: 190px;
+    object-fit: cover;
+}
+
+.navLogo {
+    margin-top: 10px;
+}
+
+/* end nav */

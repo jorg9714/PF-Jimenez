@@ -1,0 +1,23 @@
+/* Adopcions */
+.adoptions {
+    display: flex;
+    width: 90%;
+    padding: 1%;
+    margin: 2%;
+    background-color: #ffd783;
+    border: 1px #000000 solid
+}
+
+.row-adoptions {
+    justify-content: center;
+}
+
+
+.imgAdoption img {
+    height: 280px;
+    width: 280px;
+    object-fit: cover;
+}
+
+
+/* Adopcions End */
