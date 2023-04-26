@@ -3,16 +3,18 @@
 .row-about{
     justify-content: center;
 }
+
 .boxinfAbout {
     padding: 0;
     text-align: center;
     width: 90%;
     background-color: #ffd783;
     border: 1px #000000 solid;
+    p{
+        margin: 20px;
+    }
 }
-.boxinfAbout p{
-    margin: 20px;
-}
+ 
 
 .userProfile img{
     margin: 30px;

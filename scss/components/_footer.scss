@@ -28,43 +28,40 @@
 .social {
     display: inline-flex;
     margin-top: 20px;
-}
-
-.social p {
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 30px;
-    font-size: 15px;
+    p {
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 30px;
+        font-size: 15px;
+    }
 }
 
 .schedule {
     margin-top: 30px;
     display: inline-flex;
+    p {
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 30px;
+        font-size: 15px;
+    }
 }
-
-.schedule p {
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 30px;
-    font-size: 15px;
-}
-
+ 
 .contact {
     display: inline-flex;
-}
-
-.contact p {
-    text-align: center;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 30px;
-    font-size: 15px;
-}
+    p {
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 30px;
+        font-size: 15px;
+    }
+} 
 
 .logo {
     object-fit: cover;
 }
 
-.copyright p{
+.copyright p {
     text-align: center;
 }
