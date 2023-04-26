@@ -18,7 +18,7 @@
 
 
 .sectionInfo {
-    background-color: #a0c5be;
+    background-color: $third-color;
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -37,14 +37,8 @@
 
 .boxInfo {
     text-align: center;
-    background-color: #ffd783;
+    background-color: $second-color;
     border: 1px #000000 solid;
-    height: 740px;
-    width: 410px;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 10px;
-    margin-bottom: 30px;
     height: 600px;
     width: 300px;
     margin-left: 15px;
@@ -53,12 +47,12 @@
     margin-bottom: 30px;
 
     h3 {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $main-font;
         font-size: 24px;
     }
 
     p {
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: $main-font;
         font-size: 18px;
     }
 }
@@ -71,7 +65,7 @@
 }
 
 .boxindex {
-    background-color: #a0c5be;
+    background-color: $third-color;
     img {
         height: 700px;
         width: 100%;
@@ -90,7 +84,7 @@
         width: 50px;
     }
     label {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $main-font;
         font-size: 24px;
         margin-top: 7px;
     
