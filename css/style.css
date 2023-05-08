@@ -411,15 +411,17 @@
   .colfooter-contact {
     margin-top: 40px;
   }
+  .map {
+    width: 536px;
+    height: 536px;
+  }
 }
-@media screen and (min-width: 992px) and (max-width: 1600px) {
+@media screen and (min-width: 992px) and (max-width: 1400px) {
   .contact {
     display: contents;
   }
-}
-@media screen and (max-width: 1200px) {
   .map {
-    width: 536px;
+    width: 800px;
     height: 536px;
   }
 }
