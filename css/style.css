@@ -86,6 +86,12 @@
   margin-right: 30px;
   font-size: 15px;
 }
+.social a {
+  text-decoration: none;
+  color: #000000;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 .schedule {
   margin-top: 30px;
@@ -99,7 +105,7 @@
 }
 
 .contact {
-  display: inline-flex;
+  display: contents;
 }
 .contact p {
   text-align: center;
@@ -417,9 +423,6 @@
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1400px) {
-  .contact {
-    display: contents;
-  }
   .map {
     width: 800px;
     height: 536px;

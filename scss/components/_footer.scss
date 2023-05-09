@@ -34,6 +34,12 @@
         margin-right: 30px;
         font-size: 15px;
     }
+    a{
+        text-decoration: none;
+        color: #000000;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 
 .schedule {
@@ -48,7 +54,7 @@
 }
  
 .contact {
-    display: inline-flex;
+    display: contents;
     p {
         text-align: center;
         margin-top: 10px;
