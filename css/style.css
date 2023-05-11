@@ -244,6 +244,10 @@
   transform: scale(1.05);
 }
 
+.col-xl-8 div p {
+  text-align: justify;
+}
+
 .row-adoptions {
   justify-content: center;
 }
@@ -269,6 +273,7 @@
 }
 .boxinfAbout p {
   margin: 20px;
+  text-align: justify;
 }
 
 .userProfile img {
@@ -343,6 +348,9 @@
 
 .serv-list li {
   text-align: left;
+}
+.serv-list li p {
+  text-align: justify;
 }
 
 /*Services End*/
