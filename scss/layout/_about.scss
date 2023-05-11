@@ -21,6 +21,11 @@
     height: 251px;
     width: 251px;
     object-fit: cover;
+    transition: transform 5s ease;
+
+    &:hover {
+        transform: scale(1.1);
+    }
 }
 
 .iframeYoutube{

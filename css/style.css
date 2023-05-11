@@ -18,6 +18,14 @@
   margin-left: 10px;
   margin-right: 10px;
   list-style: none;
+  transition: transform 5s ease;
+}
+.navbar-nav li:hover {
+  transform: scale(1.1);
+  background-color: #1B0A5C;
+}
+.navbar-nav li:hover a {
+  color: #ffffff;
 }
 
 .nav-link-style {
@@ -166,16 +174,22 @@
   width: 300px;
   margin-left: 15px;
   margin-right: 15px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 30px;
+  transition: transform 5s ease;
 }
 .boxInfo h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
 }
 .boxInfo p {
+  margin-top: 10px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
+  text-align: justify;
+}
+.boxInfo:hover {
+  transform: scale(1.1);
 }
 
 .logo {
@@ -198,6 +212,7 @@
   width: 303px;
   background-color: #ffffff;
   border: 4px #000000 solid;
+  transition: transform 5s ease;
 }
 .buttonWhatsapp img {
   height: 50px;
@@ -208,6 +223,11 @@
   font-size: 24px;
   margin-top: 7px;
 }
+.buttonWhatsapp:hover {
+  transform: scale(1.1);
+  background-color: #1B0A5C;
+  color: #ffffff;
+}
 
 /* Adopcions */
 .adoptions {
@@ -215,8 +235,13 @@
   width: 90%;
   padding: 1%;
   margin: 2%;
+  margin-top: 15px;
   background-color: #ffd783;
   border: 1px #000000 solid;
+  transition: transform 5s ease;
+}
+.adoptions:hover {
+  transform: scale(1.05);
 }
 
 .row-adoptions {
@@ -251,6 +276,10 @@
   height: 251px;
   width: 251px;
   object-fit: cover;
+  transition: transform 5s ease;
+}
+.userProfile img:hover {
+  transform: scale(1.1);
 }
 
 .iframeYoutube {

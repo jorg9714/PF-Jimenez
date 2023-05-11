@@ -12,7 +12,16 @@
         margin-left: 10px;
         margin-right: 10px;
         list-style: none;
+        transition: transform 5s ease;
+        &:hover {
+            transform: scale(1.1);
+            background-color: #1B0A5C;
+           a{ color: #ffffff;
+           }
+        }
+
     }
+    
 }
 
 
