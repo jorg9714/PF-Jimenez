@@ -154,11 +154,20 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.sectionInfo a {
+  text-decoration: none;
+  color: #000000;
+}
 .sectionInfo h2 {
   padding: 1%;
 }
 .sectionInfo div {
   text-align: center;
+}
+.sectionInfo p {
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
 }
 
 .map {
@@ -297,6 +306,38 @@
   margin: 10px;
 }
 
+.map-contact {
+  width: 810px;
+  height: 500px;
+}
+
+.sectionContactForm {
+  margin-top: 50px;
+}
+
+.form-user div input {
+  margin: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.form-user div input:focus {
+  background-color: #f0edaf;
+}
+
+#textbox {
+  margin-top: 5px;
+  width: 380px;
+  height: 200px;
+  resize: none;
+}
+#textbox:focus {
+  background-color: #f0edaf;
+}
+
+.text-contact {
+  display: flex;
+}
+
 /*Services*/
 .boxInfoServices {
   height: 100%;
@@ -330,6 +371,7 @@
 }
 
 .cardServices {
+  padding: 0;
   background-color: #ffffff;
   border: 1px #000000 solid;
   margin-top: 1rem;
@@ -358,7 +400,8 @@
   .boxindex img {
     height: 300px;
   }
-  .map {
+  .map,
+  .boxindex img {
     width: 400px;
     height: 400px;
   }
@@ -375,38 +418,19 @@
   .boxindex img {
     height: 180px;
   }
-  .map {
+  .map-contact,
+  .map,
+  #textbox {
     width: 300px;
     height: 300px;
   }
-}
-@media screen and (max-width: 768px) {
-  .boxindex img {
-    height: 300px;
-  }
-  .map {
-    width: 400px;
-    height: 400px;
-  }
-}
-@media screen and (max-width: 992px) {
-  .boxindex img {
-    height: 400px;
-  }
-  .nav-link-style {
-    border: none;
-  }
-}
-@media screen and (max-width: 576px) {
-  .boxindex img {
-    height: 180px;
-  }
-  .map {
+  .form-user div input {
     width: 300px;
-    height: 300px;
   }
-}
-@media screen and (max-width: 576px) {
+  .sectionContactForm {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   .row-services {
     padding: 15px;
   }
@@ -426,22 +450,23 @@
   .colfooter-SocialNetwork {
     margin-top: 10px;
   }
-  .schedule img {
+  .schedule img,
+  .colfooter-contact img {
     width: 40px;
     height: 40px;
   }
   .colfooter-contact {
     margin-top: 10px;
   }
-  .colfooter-contact img {
-    width: 40px;
-    height: 40px;
-  }
   .schedule {
     margin-top: 20px;
   }
   .contact {
     display: list-item;
+  }
+  .cardServices div img {
+    height: 300px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -454,7 +479,8 @@
   .colfooter-contact {
     margin-top: 40px;
   }
-  .map {
+  .map,
+  .cardServices div img {
     width: 536px;
     height: 536px;
   }
@@ -465,6 +491,23 @@
     height: 536px;
   }
 }
-/* end footer */
+@media screen and (min-width: 500px) and (max-width: 1199px) {
+  .map-contact {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .map-contact {
+    width: 650px;
+  }
+  .form-user div input {
+    margin: 0px;
+    margin-top: 5px;
+    width: 380px;
+  }
+  #textbox {
+    height: 120px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
