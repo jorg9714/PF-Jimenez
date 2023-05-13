@@ -158,6 +158,9 @@
   text-decoration: none;
   color: #000000;
 }
+.sectionInfo a:hover {
+  color: #1B0A5C;
+}
 .sectionInfo h2 {
   padding: 1%;
 }

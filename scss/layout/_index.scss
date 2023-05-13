@@ -26,6 +26,9 @@
     a{
         text-decoration: none;
         color: #000000;
+        &:hover{
+            color: #1B0A5C;
+        }
     }
     h2 {
         padding: 1%;
