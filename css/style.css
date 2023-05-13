@@ -400,8 +400,7 @@
   .boxindex img {
     height: 300px;
   }
-  .map,
-  .boxindex img {
+  .map {
     width: 400px;
     height: 400px;
   }
@@ -479,8 +478,7 @@
   .colfooter-contact {
     margin-top: 40px;
   }
-  .map,
-  .cardServices div img {
+  .map {
     width: 536px;
     height: 536px;
   }
